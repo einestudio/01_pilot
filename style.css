@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "neue_montrealmedium";
+  src: url("neuemontreal-medium-webfont.woff2") format("woff2"), url("neuemontreal-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -33,10 +40,15 @@ body {
 }
 
 h1 {
+  font-family: "neue_montrealmedium";
+  font-size: 5rem;
+  font-weight: bold;
   margin: 2rem;
 }
 
 p {
+  font-family: "neue_montrealmedium";
+  font-size: 2rem;
   margin: 2rem;
 }
 
